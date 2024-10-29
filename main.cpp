@@ -80,6 +80,7 @@ int main() {
             printf("Invalid Option... Enter a valid option between 1-4\n");
         }
     }
+    free(arr);
 
     return 0;
 }
